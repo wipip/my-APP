@@ -31,6 +31,17 @@ with col2:
   if modo =='tactil':
     st.write("sobelo")
 
+st.subheader("selectbox")
+in_mod = st.selectbox(
+  "selecciona un modo",
+  ("pequeño","mediano","grande"),
+)
+if in_mod =="pequeño":
+  set_mod ="Talla S"
+if in_mod =="mediano":
+  set_mod ="Talla M"
+if in_mod =="pgrande":
+  set_mod ="Talla L"
 st.subheader("usar botones")
 if st.button("presionelo"):
   st.write("AAAAYYYYY")
