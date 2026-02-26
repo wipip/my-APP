@@ -30,3 +30,9 @@ with col2:
     st.write("escuchelo")
   if modo =='tactil':
     st.write("sobelo")
+
+st.subheader("usar botones")
+if st.button("presionelo"):
+  st.write("AAAAYYYYY")
+else:
+  st.write(":","(")
