@@ -2,6 +2,6 @@ import streamlit as st
 
 st.title("israel bomb site")
 
-st.header("")
-st.write("")
-image = Image.open("
+st.header("kill")
+st.write("jews")
+image = Image.open("The_Happy_Merchant.jpg")
