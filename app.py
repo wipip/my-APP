@@ -24,9 +24,9 @@ with col1:
 with col2:
   st.subheader("esta es la otra columna")
   modo = st.radio("seleccione un modo",('visual','auditivo','tactil'))
-  if modo =='visual';
+  if modo =='visual':
     st.write("vealo")
-  if modo =='auditivo';
+  if modo =='auditivo':
     st.write("escuchelo")
-  if modo =='tactil';
+  if modo =='tactil':
     st.write("sobelo")
